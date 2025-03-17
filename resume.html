@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>吴骏豪的简历</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;     /* 深蓝 */
+            --secondary-color: #3498db;   /* 亮蓝 */
+            --background-color: #7cb2e7;  /* 浅灰 */
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', system-ui;
+        }
+
+        body {
+            background: var(--background-color);
+            line-height: 1.6;
+            padding: 12px;
+        }
+
+        /* 头部信息模块 */
+        .header-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 1.2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .name {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin: 4px 2px;
+        }
+
+        /* 项目展示模块 */
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 1.2rem;
+            overflow: hidden;
+        }
+
+        .project-img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #eee;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+        }
+
+        .project-desc {
+            padding: 1rem;
+            background: linear-gradient(to bottom, #fff, #f8f9fa);
+        }
+
+        .project-title {
+            color: var(--primary-color);
+            font-size: 1.6rem;
+            font-weight: 800;
+            margin-bottom: 0.6rem;
+        }
+
+        .project-detail {
+            color: #666;
+            font-size: 1.2rem;
+            font-weight: 700;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部信息 -->
+    <div class="header-card">
+        <div class="name">吴骏豪</div>
+        <div class="subtitle">东莞理工学院 环境工程（卓越工程师计划班）</div>
+        <div class="skill-tag">Python，C/C++编程</div>
+        <div class="skill-tag">QGIS</div>
+        <div class="skill-tag">STM32</div>
+        <div class="skill-tag">CET-6</div>
+        <div class="skill-tag">林火对土壤理化性质的影响测定</div>
+        <div class="skill-tag">铁单质强化硫自养反硝化脱氮除磷效果研究</div>
+        <div class="skill-tag">三维建模与平面制图</div>
+    </div>
+
+    <!-- 项目1 -->
+    <div class="project-card">
+        <img src="speed.jpg" alt="speed" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">自制文件传输服务器</div>
+            <p class="project-detail">
+                • C语言，自学大王（自封的）的第一款作品<br>
+                • 经历五年无数次更新迭代<br>
+                • 我不知道怎么夸我了
+            </p>
+        </div>
+    </div>
+
+    <!-- 项目2 -->
+    <div class="project-card">
+        <img src="qgis.jpg" alt="qGIS" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">qGIS地理信息系统</div>
+            <p class="project-detail">
+                • 采样点标点大王（自封的），可选卫星合成图/行政区划图等<br>
+                • 学的比AI稍慢<br>
+                • 事实上就是找AI学的，比以前纯浏览器快多了
+            </p>
+        </div>
+    </div>
+    <!-- 项目3 -->
+    <div class="project-card">
+        <img src="writer.jpg" alt="writer" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">自制写字机</div>
+            <p class="project-detail">
+                • 替代手写，5w字的任务我秒接<br>
+                • 第一款手工制作，一半都是木头<br>
+                • 材料与结构共同贡献了超低稳定和精度，已经拆了，以后重做
+            </p>
+        </div>
+    </div>
+    <!-- 项目4 -->
+    <div class="project-card">
+        <img src="ice.jpg" alt="ice" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">自制帕尔贴制冷</div>
+            <p class="project-detail">
+                • 功率只有60w<br>
+                • 一块冰冻了两个小时才出来<br>
+            </p>
+        </div>
+    </div>
+    <!-- 项目5 -->
+    <div class="project-card">
+        <img src="glass.jpg" alt="ice" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">自制智能眼镜</div>
+            <p class="project-detail">
+                • 做过工程量最大的一款<br>
+                • 还没做完就匆匆把时间全放进考研了<br>
+            </p>
+        </div>
+    </div>
+    <!-- 项目6 -->
+    <div class="project-card">
+        <img src="drive.jpg" alt="drive" class="project-img">
+        <img src="model.jpg" alt="model" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">自制驾驶模拟</div>
+            <p class="project-detail">
+                • 考完初试迫不及待提升游戏质量<br>
+                • 终于是开上了努力一辈子都开不上的兰博基尼<br>
+            </p>
+        </div>
+    </div>
+    <!-- 项目7 -->
+    <div class="project-card">
+        <img src="sampling.jpg" alt="sampling" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">外出采样</div>
+            <p class="project-detail">
+                • 像猴子回家，满山爬<br>
+                • 跟导师一起连夜奔波<br>
+            </p>
+        </div>
+    </div>
+    <!-- 项目7 -->
+    <div class="project-card">
+        <img src="fisher.jpg" alt="fisher" class="project-img">
+        <img src="bamboo.jpg" alt="bamboo" class="project-img">
+        <img src="fish.jpg" alt="fish" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">钓鱼</div>
+            <p class="project-detail">
+                • 做实验的时候偷了校长一根竹子钓鱼（当然不是偷）<br>
+                • 被一众老师围观还是有点胆怯的<br>
+                • 鱼缸是之前老师想做生态毒理学实验用来养斑马鱼的<br>
+                • 还锻炼了我解剖斑马鱼的能力
+            </p>
+        </div>
+    </div>
+    <!-- 项目7 -->
+    <div class="project-card">
+        <img src="idk.jpg" alt="idk" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">？？？</div>
+            <p class="project-detail">
+                • 做实验到深夜
+            </p>
+        </div>
+    </div>
+    <!-- 项目7 -->
+    <div class="project-card">
+        <img src="flower.jpg" alt="flower" class="project-img">
+        <div class="project-desc">
+            <div class="project-title">种的花花结尾</div>
+            <p class="project-detail">
+                • 淘宝商家说是除虫菊，我想试试提取除虫菊酯，但似乎被骗了<br>
+                • 由于种种原因，本科四年几乎没有任何奖项，（除了军训标兵）<br>
+                • 有一次可以拿奖学金的我没申请，我宁愿在股市亏这钱，心疼4我了<br>
+                • 不过身外之物，求之有道，得之有命，但知识技能，求而得之，舍而失之，他们同样是我求索的结果
+            </p>
+        </div>
+    </div>
+    <!-- 复制以上project-card结构添加新项目 -->
+</body>
+</html>
